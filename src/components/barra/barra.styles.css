@@ -1,0 +1,11 @@
+.barra-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra {
+    width: 134px;
+    height: 34px;
+    border-bottom: 5px solid#000;
+    margin-top: -100px;
+  }

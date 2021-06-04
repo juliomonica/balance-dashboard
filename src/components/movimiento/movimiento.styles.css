@@ -1,0 +1,25 @@
+.transactions {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;  
+    border-bottom: solid 0.5px #bbbbbb;   
+  }
+  .text-transaction {
+    flex-grow: 1;
+    width: 143px;
+    height: 20px;
+    margin: 0 25px 19px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #333333;
+  }

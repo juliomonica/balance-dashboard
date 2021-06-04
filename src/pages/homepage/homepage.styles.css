@@ -1,0 +1,7 @@
+.homepage-container {
+  width: 375px;
+  height: 812px;
+  background-color: #ffffff;
+  border: solid 0.5px rgba(9, 22, 31, 0.3);  
+  overflow: hidden;
+}

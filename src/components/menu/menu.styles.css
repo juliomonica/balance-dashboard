@@ -1,0 +1,52 @@
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    width: 375px;
+    height: 116px;
+    margin: 0px 0 10px 0;
+    background-color: #783183;
+  }
+.crear-logro {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+  }
+  .pagar-servicio {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+  }
+  .subscripcion {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+  }
+  .logro-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 8px;
+      font-weight: 600;
+      color: white;      
+  }
+  .pagar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+}
+.subscripcion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+}

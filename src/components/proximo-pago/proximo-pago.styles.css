@@ -1,0 +1,35 @@
+.proximo-pago-container {
+    width: 280px;
+    height: 186px;
+    margin: 90px 25px 0 36px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 9px 0 rgba(56, 56, 56, 0.2);
+    background-image: linear-gradient(to bottom, #fefefe, #ffffff);
+  }
+  .proximo-pago-text {
+    width: 134px;
+    height: 15px;
+    margin: 0 99px 7px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #333333;
+  }
+  .saldo-a-pagar  {
+    width: 211px;
+  height: 40px;
+    margin: 7px 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #333333;
+  }

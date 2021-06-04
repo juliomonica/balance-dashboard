@@ -1,0 +1,45 @@
+.disposicion-texto {
+  width: 248px;
+  height: 32px;
+  margin: 21px 90px 17px 37px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+}
+.nombre {
+  width: 300px;
+  height: 40px;
+  margin: 24px 33px 5px 33px;
+  border-radius: 4px;
+  border: solid 1px #5acaee;
+}
+.cantidad {
+  width: 300px;
+  height: 40px;
+  margin: 5px 33px 12px 33px;
+  border-radius: 4px;
+  border: solid 1px #5acaee;
+}
+.button-lo-quiero {
+  width: 310px;
+  height: 52px;
+  margin: 20px 32px 2px 33px;
+  padding: 14px 98px 13px 99px;
+  border-width: 0;
+  border-radius: 4px;
+  background-color: #5acaee;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}

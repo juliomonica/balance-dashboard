@@ -1,0 +1,17 @@
+.titulo-grafica {
+    width: 300px;
+}
+.grafica {
+        width: 191px;
+        height: 191px;
+        margin: 6px 3px 7px 6px;
+        padding: 13px 1px 4px 10px;
+        transform: rotate(-12deg);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        border-style: solid;
+        border-width: 24px;
+        border-image-source: linear-gradient(306deg, #bb64c8 83%, #783183 14%);
+        border-image-slice: 1;
+        border-radius: 50%;
+    
+}
