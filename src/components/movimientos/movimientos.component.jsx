@@ -12,12 +12,12 @@ const Movimientos = () => {
   return (
     <>
       <div className="movimientos-container">
-        <h4 className="movimientos-text">Tus movimientos</h4>
-        <h4 className="ver-todos">Ver todos</h4>
+        <div className="movimientos-text">Tus movimientos</div>
+        <div className="ver-todos">Ver todos</div>
       </div>
-      <div>
+      <div className="historial-movimientos">
         <ul className="lista-movimientos">
-          <li className="historial-movimientos">
+          <li>
           {transactions.map(transaction => (<Transaction key={transaction.id} transaction={transaction} />))}
           </li>
         </ul>

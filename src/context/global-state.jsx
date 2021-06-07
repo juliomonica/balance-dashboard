@@ -1,13 +1,16 @@
 import React, { createContext, useReducer } from 'react';
 import AppReducer from './app-reducer';
-
+import car from '../assets/car.png';
+import CFE from '../assets/cfe.png';
+import NETFLIX from '../assets/NETFLIX.png';
+import Soriana from '../assets/Soriana.png';
 // Initial state
 const initialState = {
   transactions: [
-      {id: 1, text: 'Auto', amount: 350000},
-      {id: 2, text: 'CFE', amount: 280},
-      {id: 3, text: 'NETFLIX', amount: 140},
-      {id: 4, text: 'Soriana Parque Delta', amount: 2000}
+      {id: 1, image: car, text: 'Auto', subtext: 'Mis logros',date:"2m", amount: 350000},
+      {id: 2, image: CFE, text: 'CFE', subtext: 'Pago de servicio',date:"Ayer", amount: 280},
+      {id: 3, image: NETFLIX, text: 'NETFLIX', subtext: 'Subscripciones',date:"28 de dic", amount: 140},
+      {id: 4, image: Soriana, text: 'Soriana Parque Delta', subtext: 'Subscripcion TDC',date:"26 de dic", amount: 2000}
   ]
 }
 

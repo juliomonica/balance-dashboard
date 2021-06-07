@@ -1,7 +1,7 @@
 import React from 'react';
-import  {ReactComponent as StarIcon} from '../../assets/star.svg';
+import  {ReactComponent as StarIcon} from '../../assets/star-white.svg';
 import  {ReactComponent as PagarIcon} from '../../assets/pagar.svg';
-import  {ReactComponent as NotiIcon} from '../../assets/bell.svg';
+import  {ReactComponent as NotiIcon} from '../../assets/bell-white.svg';
 
 import './menu.styles.css';
 

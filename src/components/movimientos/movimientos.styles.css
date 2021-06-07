@@ -1,12 +1,15 @@
 .movimientos-container {
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 340px;
+    margin: 10px 0px 5px 16px;
   }
   .movimientos-text{
-    width: 221px;
+    display: flex;
     height: 32px;
-    margin: 10px 20px 0px 20px;
+    margin: 10px 0px 0px 0px;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -20,23 +23,28 @@
   }
 
   .ver-todos {
-    width: 80px;
     height: 20px;
-    margin: 20px 24px 0px 24px;
+    margin: 20px 0px 0px 0px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
-    letter-spacing: normal;
     color: #22a8d2;
     cursor: pointer;
   }
    .lista-movimientos {
+    display: flex;    
+    justify-content: center; 
     background-color: #fff;
     list-style-type: none;
-    padding: 12px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 330px;
+  }
+  .historial-movimientos{
+    display: flex;
     justify-content: center;
   }
   /*

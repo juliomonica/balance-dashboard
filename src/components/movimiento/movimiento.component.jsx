@@ -20,21 +20,22 @@ function moneyFormatter(num) {
 const Transaction = ({ transaction }) => {
   const { deleteTransaction } = useContext(GlobalContext);
 
-
   return (
-    <div className="transactions">
-        <h4 className="text-transaction">
-        {transaction.text}{" "}
-        </h4> 
-        <span>
-          {moneyFormatter(transaction.amount)}
-        </span>
-        <button
-          onClick={() => deleteTransaction(transaction.id)}
-          className="delete-btn"
-        >
-          x
-        </button>
+    <div className="transactions">      
+      <img id="myImage" alt='' src={transaction.image}/>
+
+      <div className="text-container">
+      <div className="text-transaction">{transaction.text} <div className='subtext'>{transaction.subtext}</div></div>
+      </div>
+      <div className="money-container">
+      <div className="text-date">{transaction.date} <div className="text-money">{moneyFormatter(transaction.amount)}</div></div>
+      </div>
+      {/* <button
+        onClick={() => deleteTransaction(transaction.id)}
+        className="delete-btn"
+      >
+        x
+      </button> */}
     </div>
   );
 };
