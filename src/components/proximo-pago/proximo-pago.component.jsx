@@ -40,7 +40,7 @@ function moneyFormatter(num) {
       
       return (
           <div className="proximo-pago-container">
-              <h4 className="proximo-pago-text">Tu proximo pago</h4>
+              <h4 className="proximo-pago-text">Tu próximo pago</h4>
               {/* <h1 className="saldo">$1,499,970.00</h1> */}
               <h1 className="saldo-a-pagar">{moneyFormatter(total)}</h1>
               

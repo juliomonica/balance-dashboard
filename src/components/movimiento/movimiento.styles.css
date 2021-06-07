@@ -30,11 +30,13 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    color: #333333;
+    
   }
   .subtext{
     width: 143px;
     font-size: 12px;
+    font-weight: 300;
+    color: #333333;
   }
   .money-container{
     display: flex;
@@ -45,8 +47,11 @@
   .text-date{
     width: 143px;
     font-size: 12px;
+    font-weight: 300;
+    color: #333333;
   }
   .text-money{
     width: 143px;
     font-size: 14px;
+    font-weight: 600;
   }

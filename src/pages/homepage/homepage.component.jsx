@@ -7,12 +7,12 @@ import Movimientos from "../../components/movimientos/movimientos.component";
 import ProximoPago from "../../components/proximo-pago/proximo-pago.component";
 
 import './homepage.styles.css';
-
+const saldoTexto='SALDO DISPONIBLE';
 const HomePage = () => (
   <div className="homepage-container">
     <Header />
     <Menu/>
-    <Balance />
+    <div className="balance-container"><Balance balanceTexto={saldoTexto}/></div>    
     <ProximoPago/>
     <Movimientos />   
     <Footer/> 

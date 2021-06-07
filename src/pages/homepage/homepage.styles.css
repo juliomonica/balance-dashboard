@@ -5,3 +5,12 @@
   border: solid 0.5px rgba(9, 22, 31, 0.3);  
   overflow: hidden;
 }
+.balance-container {
+  width: 280px;
+  height: 65px;
+  margin: -195px 25px 0 36px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 9px 0 rgba(56, 56, 56, 0.2);
+  background-image: linear-gradient(to top, #ffffff, #ffffff, #fefeff, #fefefe, #fdfefe);
+}

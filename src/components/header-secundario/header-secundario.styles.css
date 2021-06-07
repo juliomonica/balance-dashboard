@@ -1,0 +1,31 @@
+.header-secundario-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 315px;
+  height: 100px;
+}
+.header-cancelar {
+  text-align: center;
+  width: 75px;
+  height: 24px;
+  margin: 0px 0px 0px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;  
+  color: #2aabd4;
+}
+.back-arrow-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header-link{
+  text-decoration: none;
+}

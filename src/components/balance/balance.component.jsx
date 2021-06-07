@@ -18,19 +18,19 @@ function moneyFormatter(num) {
     );
   }
 
-const Balance = () => {
+const Balance = (props) => {
     const { transactions } = useContext(GlobalContext);
     const amounts = transactions.map(transaction => transaction.amount);
     const total = amounts.reduce((acc, item) => (acc += item), 0);
     //const total = 1499970;
     
     return (
-        <div className="balance-container">
-            <h4 className="SALDO-DISPONIBLE">Saldo Disponible</h4>
+        <>
+            <h4 className="texto-saldo">{props.balanceTexto}</h4>
             {/* <h1 className="saldo">$1,499,970.00</h1> */}
             <h1 className="saldo">{moneyFormatter(total)}</h1>
             
-        </div>
+        </>
     )
 }
 export default Balance;

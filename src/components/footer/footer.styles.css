@@ -1,9 +1,9 @@
 .footer-container {
     width: 375px;
-    height: 82px;
+    height: 63px;
     display: flex;
     justify-content: space-around;
-    margin: -21px 0 0 0;     
+    margin: -23px 0 0 0;     
     padding: 20px 0 0 0; 
     border-radius: 10px 10px 0px 0px;
     border: solid 0.5px rgba(9, 22, 31, 0.3);

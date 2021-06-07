@@ -11,12 +11,12 @@
     rgba(255, 255, 255, 0)-10%
   );
 }
-.header-container > .header {
+.header {
   /*padding-top: 73px;*/
   text-align: center;
   width: 75px;
   height: 22px;
-  margin: 50px 10px 23px 130px;
+  margin: 70px 10px 23px 130px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -29,7 +29,7 @@
 .perfil-usuario {
   width: 24px;
   height: 24px;
-  margin: 50px 24px 23px 21px;
+  margin: 70px 24px 23px 21px;
   border-radius: 50%;
   cursor: pointer;
 }

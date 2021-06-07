@@ -1,25 +1,15 @@
-.balance-container {
-    width: 280px;
-    height: 70px;
-    margin: -200px 25px 0 36px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 4px;
-    box-shadow: 0 1px 9px 0 rgba(56, 56, 56, 0.2);
-    background-image: linear-gradient(to bottom, #fefefe, #ffffff);
-  }
-  .SALDO-DISPONIBLE {
+  .texto-saldo {
     width: 134px;
     height: 15px;
     margin: 0 99px 7px 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
     letter-spacing: normal;
     color: #333333;
-    text-transform: uppercase;
   }
   .saldo  {
     width: 233px;

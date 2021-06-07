@@ -20,9 +20,8 @@ const DisposicionPreview = () => {
     addTransaction(newTransaction);
   };
   return (
-    <div className="container">
-      <h3 className="disposicion-texto">Disposicion</h3>
-      <form onSubmit={handleSubmit}>     
+    <div className="container">      
+      <form className="form-container" onSubmit={handleSubmit}>     
           <input className="nombre"
             name="name"
             type="text"
@@ -37,6 +36,14 @@ const DisposicionPreview = () => {
             onChange={(e) => setAmount(e.target.value)}
             required
           />
+          <div className="titulo-grafica">Selecciona tu plazo</div>
+          <div className="grafica">            
+            <div className="linea-1">Tu pago mensual</div>
+            <div className="linea-2">$12,000.00</div>
+            <div className="linea-3">a 60 meses</div>
+            <div className="linea-4">Tasa de interés</div>
+            <div className="linea-5">16.6%</div>
+          </div>
         <button className="button-lo-quiero">LO QUIERO</button>
       </form>
     </div>

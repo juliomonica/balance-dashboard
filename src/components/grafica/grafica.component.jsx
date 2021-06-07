@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import './grafica.styles.css';
 
 const Grafica = () => {
@@ -10,4 +10,4 @@ const Grafica = () => {
     )
 }
 
-export default Grafica;
+export default Grafica; */
